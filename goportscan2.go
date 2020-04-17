@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/elliotforbes/athena/port"
+	"github.com/Ophois47/Go-Port-Scanner/port"
 )
 
 func main() {
@@ -11,7 +11,6 @@ func main() {
 	results := port.InitialScan("localhost")
 	fmt.Println(results)
 
-	widescanresults := port.WideScan("localhost")
-	fmt.Println(widescanresults)
-
+	//widescanresults := port.WideScan("localhost")
+	//fmt.Println(widescanresults)
 }
